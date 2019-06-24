@@ -1,0 +1,12 @@
+flow ->
+
+auth page will mount ->
+
+ActivationInit 
+-> check if there is token
+if there is token -> redirect it's activated -> redirect
+else show page with activation form
+
+write pin somehow there, stream/state
+
+press button -> will trigger activate event with pin
